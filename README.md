@@ -24,7 +24,7 @@ Step 6: type node app.js. You must see message "Server is running. Point your br
 Step 7: Open web browser and navigate to http://localhost:1337. A web page will appear. Provide data and this should send the emails.
 
 
->Note: As we are using sendgrid here to send the emails. You must have to provide credentails in www\custom_modules\SendEmailService.js file.
+>Note: As we are using sendgrid here to send the emails. You must have to provide credentials in www\custom_modules\SendEmailService.js file.
 ```sh
  // configuring sendgrid to send emails (provide your credentials here)
  	var smtpTransport = nodemailer.createTransport({
