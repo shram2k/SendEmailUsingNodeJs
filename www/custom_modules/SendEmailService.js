@@ -15,12 +15,12 @@
 		}
 	});
 */
-	// configuring sendgrid to send emails
+	// configuring sendgrid to send emails (provide your credentials here)
 	var smtpTransport = nodemailer.createTransport({
         service: 'SendGrid', // no need to set host or port etc.
 		auth: {
-			user: "emailout",
-			pass: "talentfirst"
+			user: "",
+			pass: ""
 		}
 	});
 	
