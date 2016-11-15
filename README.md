@@ -6,7 +6,7 @@ In one of the project, I got requirement to enable user to ask for the demo. Thi
 
 This repository contains code to send emails using nodemailer and sendgrid.
 
-How to use on windows (command line):
+**How to use on windows (command line):**
 
 Step 1: Install git if not already installed.
 
@@ -34,3 +34,5 @@ Note: As we are using sendgrid here to send the emails. You must have to provide
 			pass: ""
 		}
 	});
+
+>>** You can also install github desktop application to clone and manage the repository**
