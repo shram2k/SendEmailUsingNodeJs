@@ -35,4 +35,4 @@ Step 7: Open web browser and navigate to http://localhost:1337. A web page will 
 		}
 	}); 
 ```
->> You can also install github desktop application to clone and manage the repository
+>>You can also install github desktop application to clone and manage the repository
