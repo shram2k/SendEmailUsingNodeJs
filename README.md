@@ -35,4 +35,4 @@ Note: As we are using sendgrid here to send the emails. You must have to provide
 		}
 	});
 
->>** You can also install github desktop application to clone and manage the repository**
+>> You can also install github desktop application to clone and manage the repository
