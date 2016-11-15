@@ -1,0 +1,114 @@
+.wrapper {
+    position: relative;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ededed;
+    border-radius: 5px;
+    text-align: center;
+    -webkit-box-shadow: 10px 10px 43px -4px rgba(133,126,133,1);
+    -moz-box-shadow: 10px 10px 43px -4px rgba(133,126,133,1);
+    box-shadow: 10px 10px 43px -4px rgba(133,126,133,1);
+}
+
+*SUBSCRIBE PART*/
+.sub-container {
+  position: relative;
+  z-index: 3;
+  margin-top: 40px;
+}
+.subscribe-full {
+  min-height: 280px;
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-full img {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  right: -9999px;
+  bottom: -9999px;
+  margin: auto;
+  height: 100%;
+}
+.subsc-title {
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 100;
+  font-family: "Raleway", sans-serif;
+}
+.subscribe-input {
+  height: 60px;
+  width: 100%;
+  padding-left: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 200;
+  color: #808080;
+  line-height: 60px;
+}
+@media (max-width: 767px) {
+  .subscribe-input {
+    border-radius: 10px;
+  }
+}
+.subscribe-full {
+    min-height: 280px;
+    position: relative;
+    overflow: hidden;
+}
+.sub-container {
+    position: relative;
+    z-index: 3;
+    margin-top: 40px;
+}
+.subsc-input {
+    padding-right: 0;
+    margin-bottom: 20px;
+}
+.subsc-button {
+    padding-right: 0;
+}
+
+.btn-sub {
+    display: block;
+    width: 100%;
+    height: 60px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    background-color: #3b97d3;
+    border: none;
+    border-radius: 10px;
+}
+.logo {
+    display: block;
+    width: 20%;
+    margin: 20px auto;
+}
+
+.progressbar_bg
+{
+    position: fixed;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height:100%;     
+    background-image: url("../images/popup_bg.png");
+    z-index:1000;
+}
+.progressbar_image
+{
+    position: absolute; 
+    top: 30%; 
+    left: 50%; 
+    margin-left: -100px; 
+    background-color: #FFFFFF;
+    width: 200px; 
+    padding: 10px; 
+    border-radius: 5px; 
+    text-align: center;    
+}
